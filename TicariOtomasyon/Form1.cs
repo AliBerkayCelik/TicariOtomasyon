@@ -45,5 +45,11 @@ namespace TicariOtomasyon
 			fr4.MdiParent = this;
 			fr4.Show();
 		}
+		FrmRehber fr5 = new FrmRehber();
+		private void btnRehber_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+		{
+			fr5.MdiParent = this;
+			fr5.Show();
+		}
 	}
 }
