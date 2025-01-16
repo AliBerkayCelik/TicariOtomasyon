@@ -51,5 +51,11 @@ namespace TicariOtomasyon
 			fr5.MdiParent = this;
 			fr5.Show();
 		}
+		FrmGiderler fr6 = new FrmGiderler();
+		private void btnGiderler_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+		{
+			fr6.MdiParent = this;
+			fr6.Show();
+		}
 	}
 }
