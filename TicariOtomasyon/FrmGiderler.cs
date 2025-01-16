@@ -112,7 +112,6 @@ namespace TicariOtomasyon
 			komut.Parameters.AddWithValue("@p8", decimal.Parse(txtEkstra.Text));
 			komut.Parameters.AddWithValue("@p9", rchNotlar.Text);
 			komut.Parameters.AddWithValue("@p10", txtID.Text);
-
 			komut.ExecuteNonQuery();
 			bgl.baglanti().Close();
 			MessageBox.Show("Giderler Güncellendi");

@@ -57,5 +57,11 @@ namespace TicariOtomasyon
 			fr6.MdiParent = this;
 			fr6.Show();
 		}
+		FrmBankalar fr7 = new FrmBankalar();
+		private void btnBankalar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+		{
+			fr7.MdiParent = this;
+			fr7.Show();
+		}
 	}
 }
